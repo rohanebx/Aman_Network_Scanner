@@ -15,3 +15,12 @@ nmap --version
 🔧 3. Pip (Optional)
 If you plan to add Python packages later (for logging, color output, etc.):
 sudo apt install python3-pip
+
+🧪 Optional Tools (for development or enhancements)
+virtualenv: To isolate the environment
+pip install virtualenv
+virtualenv venv
+source venv/bin/activate
+
+flake8 or black: For linting and formatting your Python code
+
