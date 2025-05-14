@@ -1,0 +1,17 @@
+🔧 1. Python 3
+This tool is written in Python 3. You can check your Python version with:
+
+Python3 --version
+If not installed, install it via:
+sudo apt update
+sudo apt install python3
+
+🔧 2. Nmap
+The script relies on Nmap for scanning, so Nmap must be installed:
+sudo apt install nmap
+To verify installation:
+nmap --version
+
+🔧 3. Pip (Optional)
+If you plan to add Python packages later (for logging, color output, etc.):
+sudo apt install python3-pip
